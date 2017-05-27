@@ -5,10 +5,9 @@
 <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
 </script>
 <script>
-var i=1;
 $(document).ready(function(){
   $("#btn1").click(function(){
-    $("p").append( i++);
+    $("p").append(" <b>追加文本</b>。");
   });
 
   $("#btn2").click(function(){
@@ -19,8 +18,8 @@ $(document).ready(function(){
 </head>
 
 <body>
-<p></p>
-
+<p>这是一个段落。</p>
+<p>这是另外一个段落。</p>
 <ol>
 <li>List item 1</li>
 <li>List item 2</li>
@@ -29,3 +28,4 @@ $(document).ready(function(){
 <button id="btn1">添加文本</button>
 <button id="btn2">添加列表项</button>
 </body>
+</html>
